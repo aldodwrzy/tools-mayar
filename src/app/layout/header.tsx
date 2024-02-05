@@ -23,9 +23,9 @@ return (
     </Grid>
     <Grid item lg={7}>
       <nav id="menu">
-        <Link href="https://mayar.id/industry ">Industri</Link>
-        <Link href="https://mayar.id/pricing">Harga</Link>
-        <Link href="https://mayar.id/demo">Demo</Link>
+        <Link href="https://mayar.id/industry " target="_blank">Industri</Link>
+        <Link href="https://mayar.id/pricing" target="_blank">Harga</Link>
+        <Link href="https://mayar.id/demo" target="_blank">Demo</Link>
       </nav>
     </Grid>
     <Grid item lg={1}>

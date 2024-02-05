@@ -12,19 +12,19 @@ return (
     <Box>
         <Grid container>
             <Grid item lg={8} display={"flex"} justifyContent={'start'}>
-                <Grid container paddingLeft={'50px'}>
+                <Grid container paddingLeft={'100px'} color={'#fff'}>
                     <Grid item lg={12}>
                         <Typography variant="body1" display={"flex"} justifyContent={'start'}>© 2022 PT Mayar Kernel
                             Supernova. All Rights reserved</Typography>
                     </Grid>
                     <Grid item lg={12}>
-                        <Typography sx={{fontSize:'11px', lineHeight:'1rem', marginTop:2, textAlign:'start !important'}}
+                        <Typography sx={{fontSize:'13px', lineHeight:'1rem', marginTop:2, textAlign:'start !important'}}
                             display={"flex"} justifyContent={'start'}>Mayar is a commerce platform, not a bank or
                             payment gateway. Payment service provided by connecting merchants to multiple licensed
                             payment service provider partnered with Mayar</Typography>
                     </Grid>
                     <Grid item lg={12}>
-                        <Typography sx={{fontSize:'11px', lineHeight:'1rem', marginTop:2, textAlign:'start !important'}}
+                        <Typography sx={{fontSize:'13px', lineHeight:'1rem', marginTop:2, textAlign:'start !important'}}
                             display={"flex"} justifyContent={'start'}>Terdaftar di PSE Kominfo dengan Nomor
                             12640003103480000000</Typography>
                     </Grid>
@@ -39,7 +39,7 @@ return (
                                 }} />
                 </Typography>
             </Grid>
-            <Grid item lg={2} display={"flex"} alignItems={"center"} justifyContent={'start'}>
+            <Grid item lg={2} display={"flex"} alignItems={"center"} justifyContent={'start'} color={'#fff'}>
                 <Typography component={NextLink} target="_blank" href={'https://www.instagram.com/mayar_id/'}>
                     <InstagramIcon sx={{margin:'5px'}} />
                 </Typography>

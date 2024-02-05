@@ -5,7 +5,7 @@ return (
         <div id="toolarea">
             <div id="pdf">
                 <div className="section-m">
-                    <h2 className="section-title">Online PDF Tools</h2>
+                    <h2 className="section-title">Mayar Tools</h2>
                 </div>
                 <div className="icon-box-container">
                     <div className="icon-box">

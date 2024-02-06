@@ -6996,16 +6996,20 @@ input[type="range"]__fill {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
   max-width: 100%;
   margin: 0px auto;
+  padding-top: 1.75rem;
+  padding-bottom: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .icon-box {
-  width: 260px;
+  width: 300px;
+  max-height: 226px;
   margin: 7px;
 
-  padding: 20px 10px;
+  padding: 10px 10px;
   text-align: center;
   background-color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);

@@ -7,13 +7,18 @@ export default function CompressPdf() {
                         <div className="inner-heading">
                             <h1>Compress PDF</h1>
                         </div>
-                    </div>           
+                    </div>
+                    <div className="section-m">
+                    <h1 className="section-title">Kompres PDF</h1>
+                    <h2 className="section-description">Kurangi ukuran PDF dengan mengompresi teks dan gambar yang disematkan</h2>
+                  
+                </div>           
                     <div id="before-file-container">
                         <div id="uploadimage" className="select-zone-main big-select-zone">
                             <input type="file" id="file-selection" className="hide-part" multiple accept="application/pdf,.pdf" value='' />
                                 <div className="select-zone-inner" id="img-select-cont">
                                     <div className="drop-file-text">
-                                        <span>Drop PDF files here to start compressing</span>
+                                        <span>Klik untuk mengunggah file atau tarik file kesini</span>
                                     </div>
                                     <div className="drop-file-button">
                                         <button id="open-file" className="btn btn-big pulsingButton">Select PDF</button>
@@ -91,6 +96,19 @@ export default function CompressPdf() {
                     </div>
                 </div>                      
             </div>
+            <div className="section-description-inline">
+                
+            <div className="h2">Apakah Anda memiliki file PDF yang terlalu besar untuk diunggah atau dikirim melalui email? Kami di sini untuk membantu.</div>
+
+            <div className="h2">Kompres PDF: Dengan alat kompres PDF kami, Anda dapat mengurangi ukuran file PDF secara efisien tanpa mengorbankan kualitas. Kami menggunakan algoritma kompresi canggih yang dapat mengecilkan ukuran file PDF menjadi lebih kecil sehingga lebih mudah untuk berbagi, mengunggah, dan mengirim melalui email.</div>
+
+            <div className="h2">Gratis dan Tanpa Batasan: Kami percaya bahwa pengguna harus dapat mengakses alat kompres PDF tanpa khawatir tentang biaya atau batasan ukuran file. Itulah mengapa kompres PDF di layanan kami adalah 100% gratis dan tidak ada batasan ukuran file yang diberlakukan. Kompres file PDF sebanyak yang Anda butuhkan tanpa ada kesulitan.</div>
+
+            <div className="h2">Kualitas Terjaga: Meskipun kami mengompres ukuran file PDF, kami memastikan untuk menjaga kualitas isi dokumen tetap terjaga. Proses kompresi kami tidak merusak teks, gambar, grafik, atau format lainnya dalam file PDF Anda. Anda dapat yakin bahwa file PDF yang dikompresi masih terlihat profesional dan mudah dibaca.</div>
+
+            <div className="h2">Keamanan Data: Privasi dan keamanan data Anda sangat penting bagi kami. Kami menggunakan protokol enkripsi yang aman untuk melindungi file PDF Anda saat diunggah dan diunduh. Kami juga tidak menyimpan file Anda lebih dari yang diperlukan untuk proses kompresi. Anda dapat merasa aman menggunakan layanan kami.</div>
+            </div>
+                   
         </>
 );
 }

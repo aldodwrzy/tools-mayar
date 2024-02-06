@@ -663,7 +663,8 @@ hr {
 }
 
 .col-sm-9 {
-  width: 888px;
+  width: 100%;
+  justify-content: center;
 }
 
 .cropper-container {
@@ -1223,14 +1224,18 @@ input[type="number"] {
   border: 0px solid #ced4da;
   background: #fff;
   text-align: center;
-  margin: 10px 0;
-  padding: 10px;
+  position: center;
 }
 
 .select-zone-inner {
   border: 2px solid #d2d2d2;
   border-style: dashed;
   background: #f5f5f5;
+  box-sizing: border-box;
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 .select-zone-inner:hover {
@@ -6977,6 +6982,23 @@ input[type="range"]__fill {
   text-align: center;
 }
 
+.section-description-inline {
+  margin-top: 0.5rem;
+  margin-bottom: 5%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #aeaecb;
+  justify-content: center;
+}
+
+.h2 {
+  max-width: 720px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .section-m {
   padding: 1px;
   border-radius: 0px;
@@ -7008,9 +7030,9 @@ input[type="range"]__fill {
 }
 
 .icon-box-container :hover {
-border-style: dashed;
-border-color: #3B82F6;
-background-color: #eef5ff;
+  border-style: dashed;
+  border-color: #3b82f6;
+  background-color: #eef5ff;
 }
 
 .icon-box {

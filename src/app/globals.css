@@ -6995,7 +6995,6 @@ input[type="range"]__fill {
 .icon-box-container {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
   gap: 1.25rem;
   justify-content: center;
 
@@ -7018,28 +7017,6 @@ background-color: #eef5ff;
   max-width: 320px;
   box-sizing: border-box;
   border: solid 1px #d4d4d8;
-=======
-  justify-content: space-around;
-  max-width: 100%;
-  margin: 0px auto;
-  padding-top: 1.75rem;
-  padding-bottom: 3.5rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.icon-box {
-  width: 300px;
-  max-height: 226px;
-  margin: 7px;
-
-  padding: 10px 10px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-in-out;
-  border: 0px solid #ccc;
->>>>>>> d44df506906c7ce8ee4d7588d0f48a112268c4c1
   border-radius: 5px;
   padding: 20px;
 }

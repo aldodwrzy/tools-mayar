@@ -5,7 +5,9 @@ return (
         <div id="toolarea">
             <div id="pdf">
                 <div className="section-m">
-                    <h2 className="section-title">Mayar Tools</h2>
+                    <h1 className="section-title">Mayar Tools</h1>
+                    <h2 className="section-description">Alat bisnis sederhana dan mudah digunakan untuk membantumu mengolah dan mengedit dokumen online</h2>
+                    <h2 className="section-description">Semua alat dijalankan pada browser kamu untuk privasi. Tanpa perlu daftar!</h2>
                 </div>
                 <div className="icon-box-container">
                     <div className="icon-box">

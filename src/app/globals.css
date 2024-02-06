@@ -6969,8 +6969,12 @@ input[type="range"]__fill {
 }
 
 .section-description {
-  font-size: 16px;
-  color: #fff;
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+  font-size: 19px;
+  font-weight: 500;
+  color: #aeaecb;
+  text-align: center;
 }
 
 .section-m {
@@ -6978,7 +6982,7 @@ input[type="range"]__fill {
   border-radius: 0px;
   border-bottom: 0px dashed white;
   margin: 0px auto;
-  width: 60%;
+  /* width: 60%; */
   margin-bottom: 30px;
 }
 

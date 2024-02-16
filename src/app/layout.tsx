@@ -19,15 +19,19 @@ children,
   return (
   <html lang="en">
     <body className={inter.className}>
-      <NoteHeader />
-      <Header />
-      {children}
-      <Footer />
-      <Script src="https://cdn.11zon.com/js/bluebird.min.js" strategy="beforeInteractive"></Script>
-      <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" strategy="beforeInteractive"></Script>
-      <Script src="https://cdn.11zon.com/js/jspdf.umd.min.js" strategy="beforeInteractive"></Script>
-      <Script src="https://cdn.11zon.com/js/pdf/pdf.min.js" strategy="beforeInteractive"></Script>
-      <Script src="https://cdn.11zon.com/js/FileSaver.min.js" strategy="beforeInteractive"></Script>
+      <div style={{display:"flex", flexDirection:"column", minHeight:"100vh"}}>
+        <NoteHeader />
+        <main style={{flexGrow:1}}>
+          <Header />
+          {children}
+        </main>
+        <Footer />
+        <Script src="https://cdn.11zon.com/js/bluebird.min.js" strategy="beforeInteractive"></Script>
+        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" strategy="beforeInteractive"></Script>
+        <Script src="https://cdn.11zon.com/js/jspdf.umd.min.js" strategy="beforeInteractive"></Script>
+        <Script src="https://cdn.11zon.com/js/pdf/pdf.min.js" strategy="beforeInteractive"></Script>
+        <Script src="https://cdn.11zon.com/js/FileSaver.min.js" strategy="beforeInteractive"></Script>
+      </div>
     </body>
   </html>
   );

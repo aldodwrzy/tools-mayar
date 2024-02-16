@@ -11,9 +11,7 @@ return (
 <footer>
     <Box>
         <Grid container>
-            <Grid item lg={1} >
-
-            </Grid>
+            <Grid item lg={1}></Grid>
             <Grid item xs={12} lg={7} display={"flex"} justifyContent={'start'} mb={5}>
                 <Grid container  color={'#fff'}>
                     <Grid item xs={12} lg={12}>
@@ -53,9 +51,7 @@ return (
                     <GitHubIcon sx={{margin:'5px'}} />
                 </Typography>
             </Grid>
-            <Grid item lg={1} >
-
-</Grid>
+            <Grid item lg={1}></Grid>
         </Grid>
     </Box>
 </footer>

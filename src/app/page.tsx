@@ -27,7 +27,7 @@ export default function Home() {
                                     <p>Menggabungkan banyak PDF menjadi satu file PDF.</p>
                                 </div>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'tools/imagetopdf'}>
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image

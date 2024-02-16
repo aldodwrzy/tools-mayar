@@ -26,6 +26,7 @@ children,
           {children}
         </main>
         <Footer />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" strategy="beforeInteractive"></Script>
         <Script src="https://cdn.11zon.com/js/bluebird.min.js" strategy="beforeInteractive"></Script>
         <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" strategy="beforeInteractive"></Script>
         <Script src="https://cdn.11zon.com/js/jspdf.umd.min.js" strategy="beforeInteractive"></Script>

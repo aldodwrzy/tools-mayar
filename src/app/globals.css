@@ -1745,6 +1745,11 @@ input[type="number"] {
   cursor: pointer;
 }
 
+.card-body{
+  width: 700px;
+  margin: auto;
+}
+
 .card-main {
   width: 198px;
   height: 270px;

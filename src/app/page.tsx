@@ -32,7 +32,7 @@ export default function Home() {
                                 <div className="icon">
                                     <Image
                                         src={'/images/jpeg-to-pdf.png'}
-                                        alt="Ubah Format Gambar"
+                                        alt="JPEG to PDF"
                                         width={'100'}
                                         height={'100'}
                                     />
@@ -46,7 +46,7 @@ export default function Home() {
                                 <div className="icon">
                                     <Image
                                         src={'/images/pdf.png'}
-                                        alt="Unduh Video Youtube"
+                                        alt="HTML to PDF"
                                         width={'100'}
                                         height={'100'}
                                     />
@@ -55,18 +55,18 @@ export default function Home() {
                                 <p>Convert html to PDF online</p>
                             </div>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'tools/ytdownloader'}>
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image
-                                        src={'/images/pdf.png'}
+                                        src={'/images/youtube.png'}
                                         alt="Unduh Video Youtube"
                                         width={'100'}
                                         height={'100'}
                                     />
                                 </div>
-                                <h3>JSON to PDF</h3>
-                                <p>Convert json to pdf online</p>
+                                <h3>Youtube Downloader</h3>
+                                <p>Unduh video youtube mudah, cepat dan kualitas terbaik.</p>
                             </div>
                             </Link>                   
                         </div>

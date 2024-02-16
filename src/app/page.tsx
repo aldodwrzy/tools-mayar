@@ -41,7 +41,7 @@ export default function Home() {
                                 <p>Convert any image format to pdf</p>
                             </div>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'tools/htmltopdf'}>
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image

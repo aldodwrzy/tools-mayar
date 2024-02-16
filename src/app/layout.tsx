@@ -20,6 +20,8 @@ children,
   <html lang="en">
     <body className={inter.className}>
       <div style={{display:"flex", flexDirection:"column", minHeight:"100vh"}}>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js" strategy="beforeInteractive"></Script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js" strategy="beforeInteractive"></Script>
         <NoteHeader />
         <main style={{flexGrow:1}}>
           <Header />

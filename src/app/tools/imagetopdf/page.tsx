@@ -1,7 +1,6 @@
 "use client"
 
 import Script from "next/script";
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Stack, Typography } from "@mui/material";
 import Link from "next/link";

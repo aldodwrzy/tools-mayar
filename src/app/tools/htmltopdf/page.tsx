@@ -50,8 +50,8 @@ export default function CompressPdf() {
                         <Typography color={"black"} display={"flex"} justifyContent={"start"} alignItems={"center"}>&nbsp; Kembali ke Tools</Typography>
                     </Stack>
                     <div className="section-m">
-                        <h1 className="section-title">Kompres PDF</h1>
-                        <h2 className="section-description">Kurangi ukuran PDF dengan mengompresi teks dan gambar yang disematkan</h2>
+                        <h1 className="section-title">Convert HTML to PDF</h1>
+                        <h2 className="section-description">Konversi File HTML Menjadi File PDF</h2>
                     </div>
                 </div>
                 <div className="content-main-image">

@@ -69,17 +69,17 @@ export default function CompressPdf() {
                     </div>
                     </form>
                     <Box>
-                        <Typography color={"black"} fontSize={'12px'} sx={{opacity:"0.8"}} my={5}>
+                        <Typography color={"#AEAECB"} fontSize={'12px'} sx={{opacity:"0.8"}} my={5}>
                             Hanya gunakan alat ini untuk mendownload video milik anda atau anda memiliki hak atas video tersebut. 
                             Dengan menggunakan alat ini berarti anda telah menyetujui <Link href={'https://mayarid.notion.site/mayarid/Kebijakan-Layanan-Mayar-Tools-54f3bb3b974a4057863bba011efe345b'} style={{color:'blue', textDecoration:'underline'}}>syarat dan ketentuan</Link> kami.
                         </Typography>
-                        <Typography color={"black"} fontSize={'16px'} sx={{opacity:"0.8"}} mb={5}>
+                        <Typography color={"#AEAECB"} fontSize={'16px'} sx={{opacity:"0.8"}} mb={5}>
                             Mayar Youtube Downloader menjadi solusi yang cocok bagi Anda yang ingin mengunduh video favorit dari Youtube dengan berbagai resolusi, mulai dari kualitas standar (SQ) hingga definisi tinggi (HD), Full HD, 2K, dan bahkan format MP4 4K. Selain itu, Mayar Youtube Downloader memberikan kemudahan dalam mengonversi video YouTube menjadi file MP3, mempermudah dan mempercepat pengunduhan audio.
                         </Typography>
-                        <Typography color={"black"} fontSize={'16px'} sx={{opacity:"0.8"}} mb={5}>
+                        <Typography color={"#AEAECB"} fontSize={'16px'} sx={{opacity:"0.8"}} mb={5}>
                             Kini, tidak ada lagi yang menghalangi Anda untuk menonton video favorit secara offline tanpa perlu koneksi internet. Alat ini telah dirancang untuk memenuhi semua kebutuhan pengunduhan Anda, beroperasi dengan mulus baik di PC maupun perangkat seluler.
                         </Typography>
-                        <Typography color={"black"} fontSize={'16px'} sx={{opacity:"0.8"}} mb={5}>
+                        <Typography color={"#AEAECB"} fontSize={'16px'} sx={{opacity:"0.8"}} mb={5}>
                             Ingin menikmati video favorit Anda tanpa tergantung koneksi internet? Temukan kemudahan untuk unduh video YouTube dengan YT Downloader kami yang cepat dan user-friendly. Dengan hanya beberapa klik, Anda bisa download video YouTube dan mengonversinya menjadi format YouTube MP4, memungkinkan Anda menyimpan dan menonton konten kesayangan Anda kapan saja, di mana saja.
                         </Typography>
                     </Box>

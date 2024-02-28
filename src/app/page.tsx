@@ -13,35 +13,7 @@ export default function Home() {
                             <h2 className="section-description">Semua alat dijalankan pada browser kamu untuk privasi. Tanpa perlu daftar!</h2>
                         </div>
                         <div className="icon-box-container">
-                            <Link href={'tools/compresspdf'}>
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <Image
-                                            src={'/images/compress-pdf.png'}
-                                            alt="Compress Pdf"
-                                            width={'100'}
-                                            height={'100'}
-                                        />
-                                    </div>
-                                    <h3>Compress PDF</h3>
-                                    <p>Menggabungkan banyak PDF menjadi satu file PDF.</p>
-                                </div>
-                            </Link>
-                            <Link href={'tools/imagetopdf'}>
-                            <div className="icon-box">
-                                <div className="icon">
-                                    <Image
-                                        src={'/images/jpeg-to-pdf.png'}
-                                        alt="JPEG to PDF"
-                                        width={'100'}
-                                        height={'100'}
-                                    />
-                                </div>
-                                <h3>Image to PDF</h3>
-                                <p>Convert any image format to pdf</p>
-                            </div>
-                            </Link>
-                            <Link href={'tools/htmltopdf'}>
+                        <Link href={'tools/ipaddressfinder'}>
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image
@@ -51,11 +23,39 @@ export default function Home() {
                                         height={'100'}
                                     />
                                 </div>
-                                <h3>HTML to PDF</h3>
-                                <p>Convert html to PDF online</p>
+                                <h3>IP Address Finder</h3>
+                                <p>Check Your IP Address</p>
                             </div>
                             </Link>
-                            <Link href={'tools/ytdownloader'}>
+                            <Link href={'tools/domainlocation'}>
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <Image
+                                            src={'/images/compress-pdf.png'}
+                                            alt="Compress Pdf"
+                                            width={'100'}
+                                            height={'100'}
+                                        />
+                                    </div>
+                                    <h3>Domain Location</h3>
+                                    <p>Check Your Domain Location</p>
+                                </div>
+                            </Link>
+                            <Link href={'tools/nslookup'}>
+                            <div className="icon-box">
+                                <div className="icon">
+                                    <Image
+                                        src={'/images/jpeg-to-pdf.png'}
+                                        alt="JPEG to PDF"
+                                        width={'100'}
+                                        height={'100'}
+                                    />
+                                </div>
+                                <h3>Nameserver Lookup</h3>
+                                <p>Check Your DNS Name Server</p>
+                            </div>
+                            </Link>
+                            <Link href={'tools/walinkgenerate'}>
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image
@@ -65,8 +65,8 @@ export default function Home() {
                                         height={'100'}
                                     />
                                 </div>
-                                <h3>Youtube Downloader</h3>
-                                <p>Unduh video youtube mudah, cepat dan kualitas terbaik.</p>
+                                <h3>Whatsapp Link Generator</h3>
+                                <p>Create a Whatsapp Link Directly To Your Chat Page    </p>
                             </div>
                             </Link>                   
                         </div>

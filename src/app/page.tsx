@@ -55,7 +55,7 @@ export default function Home() {
                                 <p>Check Your DNS Name Server</p>
                             </div>
                             </Link>
-                            <Link href={'tools/walinkgenerate'}>
+                            <Link href={'tools/urlparse'}>
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image

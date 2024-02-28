@@ -17,10 +17,10 @@ export default function Home() {
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image
-                                        src={'/images/pdf.png'}
+                                        src={'/images/gambar1.png'}
                                         alt="HTML to PDF"
-                                        width={'100'}
-                                        height={'100'}
+                                        width={'50'}
+                                        height={'50'}
                                     />
                                 </div>
                                 <h3>IP Address Finder</h3>
@@ -31,10 +31,10 @@ export default function Home() {
                                 <div className="icon-box">
                                     <div className="icon">
                                         <Image
-                                            src={'/images/compress-pdf.png'}
+                                            src={'/images/gambar2.png'}
                                             alt="Compress Pdf"
-                                            width={'100'}
-                                            height={'100'}
+                                            width={'50'}
+                                            height={'50'}
                                         />
                                     </div>
                                     <h3>Domain Location</h3>
@@ -45,10 +45,10 @@ export default function Home() {
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image
-                                        src={'/images/jpeg-to-pdf.png'}
+                                        src={'/images/gambar5.png'}
                                         alt="JPEG to PDF"
-                                        width={'100'}
-                                        height={'100'}
+                                        width={'50'}
+                                        height={'50'}
                                     />
                                 </div>
                                 <h3>Nameserver Lookup</h3>
@@ -59,14 +59,14 @@ export default function Home() {
                             <div className="icon-box">
                                 <div className="icon">
                                     <Image
-                                        src={'/images/youtube.png'}
+                                        src={'/images/gambar4.png'}
                                         alt="Unduh Video Youtube"
-                                        width={'100'}
-                                        height={'100'}
+                                        width={'50'}
+                                        height={'50'}
                                     />
                                 </div>
-                                <h3>Whatsapp Link Generator</h3>
-                                <p>Create a Whatsapp Link Directly To Your Chat Page    </p>
+                                <h3>URL Parser</h3>
+                                <p>Check the detailed information of the URL</p>
                             </div>
                             </Link>                   
                         </div>

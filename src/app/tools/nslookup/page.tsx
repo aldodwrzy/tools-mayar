@@ -49,8 +49,8 @@ export default function nslookup() {
                         <Typography color={"black"} display={"flex"} justifyContent={"start"} alignItems={"center"}>&nbsp; Kembali ke Tools</Typography>
                     </Stack>
                     <div className="section-m">
-                        <h1 className="section-title">Convert Image To PDF</h1>
-                        <h2 className="section-description">Konversi Gambar Menjadi File PDF</h2>
+                        <h1 className="section-title">Name Server Lookup</h1>
+                        <h2 className="section-description">Cek name server dari DNS anda disini</h2>
                     </div>
                 </div>
                 <div className="content-main-image">
